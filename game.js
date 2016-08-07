@@ -96,6 +96,7 @@ var nextLevel = function () {
     var board = new GameBoard();
     board.add(new PlayerShip());
     board.add(new Level(level2, winGame));// try to add a new level
+    board.add(new Level(level2, winGame));
     Game.setBoard(3, board);
     //Game.setBoard(5, new GamePoints(0));
 };
