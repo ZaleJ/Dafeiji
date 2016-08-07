@@ -69,9 +69,9 @@ var level1 = [
 // try to add a level
 var level2 = [
  // Start,   End, Gap,  Type,   Override
-  [0, 4000, 500, 'step'],
-  [6000, 13000, 800, 'ltr'],
-  [10000, 16000, 400, 'circle'],
+  [0, 6000, 500, 'step'],
+  [6000, 17000, 800, 'ltr'],
+  [10000, 20000, 400, 'circle'],
   [17800, 20000, 500, 'straight', { x: 50 }],
   [18200, 20000, 500, 'straight', { x: 90 }],
   [18200, 20000, 500, 'straight', { x: 10 }],
